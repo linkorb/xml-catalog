@@ -1,0 +1,16 @@
+{
+  "name": "example-package-a",
+  "version": "1.0.0",
+  "description": "Example node package A",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/example-package-a.git"
+  },
+  "dependencies": {
+    "@hello/world": "git+https://example.com/hello/world.git#semver:^1.0",
+    "testtest": "git+https://example.com/example/testtest.git#semver:^2.0"
+  },
+  "devDependencies": {
+    "devtest": "git+https://example.com/example/devtest.git#semver:^2.0"
+  }
+}

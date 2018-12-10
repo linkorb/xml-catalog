@@ -1,0 +1,25 @@
+{
+  "name": "xml-catalog",
+  "version": "1.0.0",
+  "description": "xml catalog generator",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkorb/xml-catalog.git"
+  },
+  "author": "LinkORB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkorb/xml-catalog/issues"
+  },
+  "homepage": "https://github.com/linkorb/xml-catalog#readme",
+  "dependencies": {
+
+  }
+}

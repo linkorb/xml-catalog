@@ -6,8 +6,8 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "generate": "./bin/generate"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/linkorb/xml-catalog/issues"
   },
-  "homepage": "https://github.com/linkorb/xml-catalog#readme",
-  "dependencies": {
-
-  }
+  "homepage": "https://github.com/linkorb/xml-catalog#readme"
 }

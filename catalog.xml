@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+    <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+      
+<!-- supported files found in 'node_modules/@hello' package directory -->
+      <system systemId="@hello/world:data/countries.xml"
+      uri="node_modules/@hello/world/data/countries.xml"/>
+<!-- supported files found in 'node_modules/devtest' package directory -->
+      <system systemId="devtest:converters/list-countries.xslt"
+      uri="node_modules/devtest/converters/list-countries.xslt"/>
+<!-- supported files found in 'node_modules/testtest' package directory -->
+      <system systemId="testtest:config/letters.xml"
+      uri="node_modules/testtest/config/letters.xml"/>
+<!-- supported files found in 'node_modules/testtest' package directory -->
+      <system systemId="testtest:config/numbers.xml"
+      uri="node_modules/testtest/config/numbers.xml"/>
+<!-- supported files found in current package 'xml-catalog' -->
+      <system systemId="xml-catalog:src/list-numbers.xslt"
+      uri="src/list-numbers.xslt"/>
+    </catalog>
+  
